@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html ::-webkit-scrollbar{
+    scroll-snap-type:none;
+}
+
+header{
+    position: fixed;
+    padding: 3px;
+    width: 100%;
+    background-color: #aed581;
+}
+header .a{
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    padding-right: 300px;
+    padding-left: 200px;
+    color: #000000;
+}
+header .aOne,
+header .aTwo,
+header .aThree,
+header .aFour,
+header .aFive{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 25px;
+    color: #000000;
+}
+header .aOne:hover {
+    color: #33691e;
+}
+header .aTwo:hover {
+    color: #33691e;
+}
+header .aThree:hover {
+    color: #33691e;
+}
+header .aFour:hover {
+    color: #33691e;
+}
+header .aFive:hover {
+    color: #33691e;
+}
+
+.home{
+    display: flex;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 200px;
+    height: 500px;
+}
+.home h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+}
+.home h2 span {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    color: #000000;
+}
+.home h3 {
+    display: flex;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #000000;
+}
+.home .aOne {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 13px 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.7s ease;
+}
+.home .aOne:hover {
+    transform: scale(1.1);
+    color: #33691e;
+}
+.home .aTwo {
+    font-size: 20px;
+    padding-right: 20px;
+    color: #000000;
+}
+.home .aTwo:hover {
+    transform: scale(1.1);
+    color: #33691e;
+}
+
+.programming .title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #33691e;
+}
+.programming .div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.programming .card {
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 25px;
+    margin: 15px;
+    width: 70%;
+    background-color: #fff;
+}
+.programming .icon {
+    text-align: center;
+    font-size: 100px;
+    color: #33691e;
+}
+.programming .details {
+    text-align: justify;
+}
+.programming .details h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    color: #33691e;
+}
+
+.services .title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #33691e;
+}
+.services .div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.services .card {
+    display: flex;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 25px;
+    margin: 15px;
+    width: 20%;
+    background-color: #fff;
+}
+.services .details {
+    text-align: center;
+}
+.services .details h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    color: #33691e;
+    height: 55px;
+}
+
+.projects {
+    background-color: #33691e;
+    padding-left:90px;
+}
+.projects .title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: -40px;
+    color: #ffffff;
+    padding-top: 30px;
+}
+.projects .div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    overflow: auto;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.projects .div .enter{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    padding-right: 400px;
+}
+.projects a {
+    display: inline-block;
+    width: 46px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-top: 70px;
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.7s ease;
+}
+.projects a:hover {
+    transform: scale(1.1);
+    color: #33691e;
+}
+.projects .div img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+
+.contact .title {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #33691e;
+}
+.contact .div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact .card {
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 25px;
+    margin: 15px;
+    width: 20%;
+    background-color: #fff;
+    transition: 0.7s ease;
+}
+.contact .card:hover {
+    transform: scale(1.1);
+}
+.contact .icon {
+    text-align: center;
+    font-size: 30px;
+    color: #33691e;
+}
+.contact .details {
+    text-align: center;
+}
+.contact .details h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    color: #33691e;
+}
+
+footer{
+    display: flex;
+    padding: 10px;
+    background-color: #aed581;
+}
+.noha{
+    display: flex;
+    flex-direction: row;
+}
+.noha p {
+    display: flex;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 930px;
+    color: #000000;
+}
+.noha a{
+    display: flex;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 9px;
+    color: #33691e;
+}
+.noha a:hover {
+    color: #000000;
+}
